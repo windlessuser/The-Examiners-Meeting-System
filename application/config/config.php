@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/The-Examiners-Meeting-System/';
+$config['base_url']	= 'http://120.0.0.1/The-Examiners-Meeting-System/';
 
 /*
 |--------------------------------------------------------------------------
@@ -224,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = uniqid(uniqid(),true);
+$config['encryption_key'] = hash('whirlpool',hash('sha1','?x931b*45la051shkalwrxa?'));
 
 /*
 |--------------------------------------------------------------------------
@@ -264,8 +264,8 @@ $config['sess_time_to_update']	= 300;
 | 'cookie_path'   =  Typically will be a forward slash
 |
 */
-$config['cookie_prefix']	= uniqid();
-$config['cookie_domain']	= '.localhost/The-Examiners-Meeting-System';
+$config['cookie_prefix']	= "uniqid()";
+$config['cookie_domain']	= '';
 $config['cookie_path']		= '/';
 
 /*
