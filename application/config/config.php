@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://120.0.0.1/The-Examiners-Meeting-System/';
+$config['base_url']	= 'http://127.0.0.1/The-Examiners-Meeting-System/';
 
 /*
 |--------------------------------------------------------------------------
@@ -264,7 +264,7 @@ $config['sess_time_to_update']	= 300;
 | 'cookie_path'   =  Typically will be a forward slash
 |
 */
-$config['cookie_prefix']	= "uniqid()";
+$config['cookie_prefix']	= "";
 $config['cookie_domain']	= '';
 $config['cookie_path']		= '/';
 
@@ -313,7 +313,7 @@ $config['csrf_expire'] = 7200;
 | by the output class.  Do not 'echo' any values with compression enabled.
 |
 */
-$config['compress_output'] = TRUE;
+$config['compress_output'] = FALSE;
 
 /*
 |--------------------------------------------------------------------------
